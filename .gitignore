@@ -1,0 +1,15 @@
+@"
+__pycache__/
+.venv/
+venv/
+.env
+*.pyc
+
+# Original datasets
+ted_talks_*.csv
+
+# Generated recommendation datasets
+milestone2_outputs/ted_talks_cleaned_for_recommendation.csv
+ted_talks_cleaned.csv
+ted_talks_recommendation_ready.csv
+"@ | Set-Content .gitignore

@@ -1,0 +1,458 @@
+topic,talk_count
+science,993
+technology,979
+culture,680
+TEDx,581
+global issues,574
+TED-Ed,563
+society,557
+design,518
+social change,512
+animation,487
+business,443
+health,442
+history,406
+education,390
+humanity,388
+innovation,371
+biology,354
+entertainment,348
+future,329
+art,328
+communication,321
+creativity,312
+community,298
+activism,278
+medicine,266
+brain,256
+collaboration,251
+personal growth,237
+environment,236
+economics,233
+health care,227
+nature,227
+TED Fellows,223
+invention,216
+psychology,211
+politics,210
+animals,203
+children,200
+identity,199
+women,188
+life,182
+climate change,172
+medical research,171
+human body,170
+computers,167
+music,167
+Africa,164
+storytelling,164
+war,156
+engineering,156
+inequality,154
+sustainability,151
+government,148
+cities,147
+public health,147
+disease,147
+work,144
+data,142
+performance,138
+math,137
+space,133
+oceans,132
+exploration,131
+physics,128
+Internet,124
+neuroscience,123
+writing,123
+humor,120
+evolution,115
+food,111
+live music,111
+architecture,110
+photography,109
+leadership,107
+mental health,105
+universe,105
+world cultures,103
+potential,102
+illness,99
+philosophy,98
+media,98
+visualizations,97
+entrepreneur,97
+physiology,96
+race,95
+family,94
+happiness,94
+language,92
+violence,92
+United States,92
+motivation,90
+biodiversity,88
+religion,87
+beauty,86
+democracy,85
+genetics,85
+self,84
+biotech,83
+mind,82
+social media,82
+parenting,82
+poetry,80
+film,80
+policy,79
+journalism,78
+big problems,78
+global development,77
+pollution,76
+AI,76
+robots,76
+teaching,75
+green,75
+gender equality,75
+death,75
+law,75
+love,75
+books,74
+literature,74
+poverty,73
+cognitive science,71
+cancer,71
+water,71
+energy,70
+relationships,70
+DNA,66
+astronomy,66
+infrastructure,65
+intelligence,63
+ecology,63
+demo,62
+crime,62
+ancient world,61
+software,61
+peace,60
+india,59
+product design,59
+gender,59
+algorithm,58
+decision-making,58
+sex,57
+adventure,55
+compassion,55
+chemistry,55
+feminism,55
+aging,55
+insects,54
+Planets,54
+success,53
+agriculture,53
+money,53
+healthcare,52
+memory,52
+comedy,52
+youth,51
+emotions,50
+choice,50
+materials,49
+goal-setting,48
+disability,48
+fish,48
+anthropology,48
+empathy,48
+urban planning,47
+investment,47
+sports,47
+consciousness,46
+depression,46
+web,46
+marine biology,45
+science and art,45
+Best of the Web,45
+security,44
+performance art,43
+bacteria,42
+plants,42
+alternative energy,42
+terrorism,41
+microbiology,40
+molecular biology,40
+china,39
+fear,39
+justice system,39
+transportation,39
+Middle East,38
+machine learning,38
+gaming,38
+code,37
+Asia,37
+natural resources,37
+TEDMED,37
+immigration,37
+curiosity,36
+statistics,36
+Anthropocene,35
+corruption,35
+philanthropy,35
+finance,35
+women in business,35
+open-source,35
+programming,34
+book,34
+sociology,33
+biomechanics,33
+prison,33
+electricity,33
+sight,33
+industrial design,32
+virus,32
+dance,32
+news,32
+TED Prize,32
+interface design,32
+NASA,32
+solar system,31
+movies,31
+discovery,31
+public spaces,31
+personality,31
+speech,30
+conservation,30
+bioethics,30
+faith,30
+fashion,30
+refugees,30
+time,30
+morality,30
+cosmos,30
+novel,30
+TED Residency,29
+play,29
+criminal justice,29
+work-life balance,29
+productivity,28
+behavioral economics,28
+sound,28
+consumerism,28
+illusion,28
+magic,27
+farming,27
+pharmaceuticals,27
+Senses,27
+privacy,26
+surveillance,26
+LGBT,26
+online video,26
+biosphere,26
+military,26
+Europe,25
+cars,25
+nanoscale,24
+encryption,24
+singer,24
+disaster relief,24
+drones,23
+garden,23
+complexity,23
+microbes,23
+library,23
+sexual violence,23
+TEDYouth,23
+heart health,22
+marketing,22
+trees,22
+Vaccines,22
+theater,22
+spoken word,22
+biomimicry,22
+vocals,22
+mission blue,22
+weather,21
+manufacturing,21
+Surgery,21
+TED en Español,21
+big bang,21
+flight,21
+telescopes,21
+indigenous peoples,21
+human origins,21
+solar energy,21
+failure,20
+natural disaster,20
+HIV,20
+medical imaging,19
+Slavery,19
+prosthetics,19
+TEDNYC,19
+map,19
+guitar,19
+botany,19
+AIDS,18
+South America,18
+diversity,18
+extraterrestrial life,18
+dark matter,18
+arts,18
+TED Books,18
+addiction,18
+museums,18
+global commons,18
+synthetic biology,18
+virtual reality,18
+archaeology,18
+friendship,17
+mindfulness,17
+plastic,17
+quantum physics,17
+capitalism,17
+birds,17
+protests,17
+trust,17
+painting,17
+Transgender,17
+paleontology,17
+interview,17
+God,16
+Egypt,16
+hack,16
+blindness,16
+exercise,15
+sleep,15
+pain,15
+toy,15
+obesity,15
+bees,15
+Audacious Project,15
+travel,14
+prediction,14
+fungi,14
+presentation,14
+simplicity,14
+population,14
+astrobiology,14
+television,14
+MacArthur grant,14
+pregnancy,14
+PTSD,13
+driverless cars,13
+urban,13
+Mars,13
+piano,13
+Autism spectrum disorder,13
+geology,13
+resources,13
+smell,13
+dinosaurs,13
+markets,13
+Antarctica,13
+evolutionary psychology,13
+sanitation,13
+ebola,13
+hearing,12
+body language,12
+3D printing,12
+men,12
+Gender spectrum,12
+iraq,11
+composing,11
+crowdsourcing,11
+nuclear energy,11
+aircraft,11
+narcotics,11
+Google,11
+CRISPR,11
+Brazil,11
+Debate,11
+pandemic,11
+advertising,11
+rivers,11
+human rights,10
+coronavirus,10
+graphic design,10
+Syria,10
+rocket science,10
+coral reefs,10
+String theory,10
+trafficking,10
+science fiction,10
+submarine,10
+Moon,9
+Islam,9
+guns,9
+Foreign Policy,9
+suicide,9
+mobility,9
+extreme sports,9
+Alzheimer's,9
+telecom,9
+bullying,9
+glacier,9
+grammar,8
+wind energy,8
+shopping,8
+vulnerability,8
+monkeys,8
+state-building,8
+charter for compassion,8
+asteroid,8
+development,8
+New York,8
+Buddhism,8
+deextinction,8
+wikipedia,8
+neurology,7
+Nobel Prize,7
+homelessness,7
+typography,7
+meditation,7
+bionics,7
+conducting,7
+epidemiology,7
+blockchain,7
+Christianity,7
+wunderkind,6
+nonviolence,6
+primates,6
+Sun,6
+cryptocurrency,6
+TED Connects,6
+funny,6
+Latin America,6
+ants,6
+introvert,6
+nuclear weapons,6
+oil,6
+Science (hard),5
+augmented reality,5
+atheism,5
+forensics,5
+meme,5
+violin,5
+Iran,5
+student,5
+apes,5
+microfinance,5
+inclusion,5
+Social Science,4
+Brand,4
+mining,4
+street art,4
+opioids,4
+stigma,4
+jazz,4
+cello,4
+robot,3
+evil,3
+cooperation,3
+microsoft,3
+Humanities,3
+origami,2
+testing,2
+start-up,2
+gay,2
+cloud,1
+exoskeleton,1
+skateboarding,1
+rap,1
+autism,1

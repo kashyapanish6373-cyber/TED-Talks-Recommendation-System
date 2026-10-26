@@ -1,0 +1,154 @@
+=======================================================
+TED TALK RECOMMENDATION SYSTEM — FULL EDA
+=======================================================
+Input file: ted_talks_en.csv
+Original rows: 4005
+Original columns: 19
+Dataset shape: (4005, 19)
+Columns: talk_id, title, speaker_1, all_speakers, occupations, about_speakers, views, recorded_date, published_date, event, native_lang, available_lang, comments, duration, topics, related_talks, url, description, transcript
+
+========== 1. DATA QUALITY ==========
+Duplicate complete rows: 0
+Duplicate talk IDs: 0
+Missing values by column:
+  comments: 655 (16.35%)
+  occupations: 522 (13.03%)
+  about_speakers: 503 (12.56%)
+  all_speakers: 4 (0.1%)
+  recorded_date: 1 (0.02%)
+
+========== 2. TOPIC ANALYSIS ==========
+Average topics per talk: 7.92
+Top 15 topics:
+  science: 993
+  technology: 979
+  culture: 680
+  TEDx: 581
+  global issues: 574
+  TED-Ed: 563
+  society: 557
+  design: 518
+  social change: 512
+  animation: 487
+  business: 443
+  health: 442
+  history: 406
+  education: 390
+  humanity: 388
+
+========== 3. SPEAKER ANALYSIS ==========
+Unique speaker names: 6686
+Top 10 primary speakers:
+  Alex Gendler: 34
+  Iseult Gillespie: 19
+  Emma Bryce: 12
+  Daniel Finkel: 11
+  Hans Rosling: 10
+  Alex Rosenthal: 10
+  Juan Enriquez: 9
+  Greg Gage: 9
+  Chris Anderson: 8
+  Marco Tempest: 7
+
+========== 4. TEXT ANALYSIS ==========
+title: empty=0, mean words=6.7, median words=6.0, minimum=1, maximum=17
+description: empty=0, mean words=58.2, median words=57.0, minimum=9, maximum=143
+transcript: empty=0, mean words=1796.8, median words=1753.0, minimum=2, maximum=11121
+Transcripts under 100 words: 11
+Transcripts over 20,000 words: 0
+about_speakers: empty=503, mean words=22.4, median words=22.0, minimum=0, maximum=238
+
+========== 5. VIEWS ANALYSIS ==========
+Mean views: 2,148,005.57
+Median views: 1,375,508.00
+Minimum views: 0
+Maximum views: 65,051,954
+Potential high-view outliers using IQR rule: 393
+
+========== 6. DURATION ANALYSIS ==========
+Missing or non-numeric duration: 0
+Zero or negative duration: 0
+Mean duration: 724.01 seconds (12.07 minutes)
+Median duration: 738.00 seconds (12.30 minutes)
+Minimum duration: 60 seconds
+Maximum duration: 3922 seconds
+Potential long-duration outliers using IQR rule: 21
+
+========== 7. DATE ANALYSIS ==========
+recorded_date: missing or invalid dates = 1
+published_date: missing or invalid dates = 0
+Earliest publication: 2006-06-27
+Latest publication: 2020-04-30
+
+========== 8. LANGUAGE ANALYSIS ==========
+Top 10 native languages:
+  en: 3957
+  es: 27
+  fr: 9
+  ja: 3
+  hi: 2
+  de: 1
+  pt: 1
+  ko: 1
+  zh-cn: 1
+  ar: 1
+Distinct available language labels: 114
+Missing available-language values: 0
+
+========== 9. EVENTS AND OCCUPATIONS ==========
+Top 10 events:
+  TED-Ed: 556
+  TED2017: 96
+  TED2018: 96
+  TED2019: 91
+  TED2014: 84
+  TED2009: 81
+  TED2013: 75
+  TED2015: 75
+  TED2016: 75
+  TED2011: 70
+Top 15 occupations:
+  author']}: 70
+  {0: ['writer']}: 53
+  activist']}: 51
+  {0: ['author: 49
+  {0: ['journalist']}: 47
+  {0: ['writer: 44
+  {0: ['entrepreneur']}: 42
+  {0: ['artist']}: 41
+  {0: ['architect']}: 38
+  entrepreneur']}: 37
+  {0: ['designer']}: 37
+  {0: ['neuroscientist']}: 32
+  {0: ['psychologist']}: 31
+  {0: ['educator']}: 29
+  {0: ['inventor']}: 28
+
+========== 10. COMMENTS ANALYSIS ==========
+Missing comments: 655
+Mean comments: 162.00
+Median comments: 89.00
+Minimum comments: 0
+Maximum comments: 6449
+Potential high-comment outliers using IQR rule: 261
+
+========== 11. RELATED TALKS ANALYSIS ==========
+Average related talks per entry: 6.50
+Related references not found or unparsed: 2166
+Related-talk references may help with offline checks, but do not prove personalized relevance.
+
+========== 12. CLEANING AND PREPARATION ==========
+Duplicate complete rows removed: 0
+Duplicate talk IDs removed: 0
+Cleaned dataset saved: C:\Users\DELL\Downloads\archive\TED_EDA\milestone2_outputs\ted_talks_cleaned_for_recommendation.csv
+Final dataset shape: (4005, 21)
+Net rows removed, including duplicates and unusable titles/content: 0
+
+========== 13. FINAL FINDINGS ==========
+Content-based features: title, topics, description, transcript.
+Possible metadata features: speaker, occupations, event, duration, views, and native language.
+Views and comments represent popularity or engagement, not an individual user's personal preferences.
+Short-text flags are candidates for review, not proof of bad data.
+Recommendation quality must be evaluated separately; cleaning and EDA alone do not prove recommendation accuracy.
+Charts folder: C:\Users\DELL\Downloads\archive\TED_EDA\milestone2_outputs\plots
+Reports folder: C:\Users\DELL\Downloads\archive\TED_EDA\milestone2_outputs\reports
